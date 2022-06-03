@@ -155,7 +155,7 @@ class doorStateCharacteristic(Characteristic):
         return value
 
 class doorStateDescriptor(Descriptor):
-    DOORSTATE_DESCRIPTOR_UUID = "2901"
+    DOORSTATE_DESCRIPTOR_UUID = "3802"
     DOORSTATE_DESCRIPTOR_VALUE = "State of the greenhouse doors"
 
     def __init__(self, characteristic):
